@@ -1,0 +1,96 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+.container{
+     min-height: 100vh;
+    background-color: rgb(2, 2, 57);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 80px 10px 80px;
+    border-radius: 1%;
+
+}
+
+.Img_container img{
+     margin-top: 40px;
+     border-radius: 30%;
+     border: 2px solid white;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+     height: 280px;
+     filter: brightness(120%) saturate(120%);
+}
+
+.Img_container img:hover {
+     opacity: 0.8;
+   }
+
+.HeaderDiv{
+     margin-top: 20px;
+}
+
+.HeaderDiv h1{
+     font-size: 43px;
+     font-weight: 400;
+}
+
+.HeaderDiv h3{
+     font-size: 25px;
+     font-weight: 400;
+     text-align: center;
+     font-style: italic;
+}
+
+section h2{
+     margin-bottom: 10px;
+     text-align: center;
+     font-weight: 500;
+     font-style: italic;
+}
+
+section p{
+     padding-left: 5%;
+     padding-right: 5%;
+     letter-spacing: 1px;
+     line-height: 1.5;
+     font-size: 18px;
+     font-weight: 200;
+}
+
+.section4 h2{
+     font-weight: 500;
+     font-size: 28px;
+}
+
+section {
+     margin-bottom: 10px;
+     text-align: center;
+     font-weight: 500;
+     font-style: italic;
+     margin-top: 30px;
+ }
+
+.section5 h2{
+     font-weight: 500;
+     font-size: 30px;
+     font-style: italic;
+}
+
+.section5 li{
+     font-weight: 400;
+     margin-left: 50px;
+     font-size: 18px;
+     letter-spacing: 1px;
+     line-height: 1.5;
+     list-style-type: none;
+}
+.footer p{
+     margin-top: 20px;
+     text-align: right;
+     font-weight: 300;
+     margin-bottom: 10px;
+}
